@@ -135,8 +135,8 @@ function finishSession(){
  progress();
 }
 loadState();
-fetch("data/teaching.json").then(function(r){return r.json()}).then(function(d){teaching=d.topics||{}}).catch(function(){});
-fetch("data/questions.json").then(function(r){return r.json()}).then(function(d){bank=d.questions;progress();$("startBtn").disabled=false}).catch(function(){$("status").textContent="Não consegui carregar o banco. Esta versão precisa estar hospedada por HTTP/HTTPS.";});
+fetch("teaching.json").then(function(r){return r.json()}).then(function(d){teaching=d.topics||{}}).catch(function(){});
+fetch("questions.json").then(function(r){return r.json()}).then(function(d){bank=d.questions;progress();$("startBtn").disabled=false}).catch(function(){$("status").textContent="Não consegui carregar o banco. Esta versão precisa estar hospedada por HTTP/HTTPS.";});
 $("startBtn").disabled=true;$("startBtn").onclick=function(){$("app").querySelector(".hero").hidden=true;$("result").hidden=true;$("study").hidden=false;makeSession()};
 $("backBtn").onclick=function(){$("study").hidden=true;$("result").hidden=true;$("app").querySelector(".hero").hidden=false;progress()};
 $("againBtn").onclick=function(){$("result").hidden=true;$("study").hidden=false;makeSession()};
