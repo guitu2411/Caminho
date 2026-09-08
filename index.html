@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR" dir="ltr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f6f0e5">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+<title>Caminho</title>
+</head>
+<body>
+<main id="app">
+  <section class="hero">
+    <small>CAMINHO</small>
+    <h1>Ramat Gan <span>🚗</span> Harish</h1>
+    <p>10 minutos hoje. Um pouco mais perto da independência.</p>
+    <div class="road"><div id="roadFill"></div><span id="car">🚗</span></div>
+    <button id="startBtn">Começar estudo</button>
+    <button id="mockBtn" class="secondary">Fazer simulado</button>
+    <button id="readinessBtn" class="secondary">Ver meu preparo</button>
+    <button id="installBtn" class="secondary">Instalar no celular</button>
+    <p id="status">Carregando banco oficial…</p>
+  </section>
+  <section id="study" hidden>
+    <div class="top"><button id="backBtn">‹</button><span id="counter"></span></div>
+    <div id="concept" class="chip"></div>
+    <div id="imageWrap"></div>
+    <h2 id="question" dir="rtl"></h2>
+    <div id="answers" dir="rtl"></div>
+    <button id="helpBtn" class="secondary">🤔 Não entendi</button>
+    <div id="teacherFeedback" hidden></div>
+    <div id="help" hidden></div>
+    <button id="continueBtn" hidden>Continuar</button>
+  </section>
+  <section id="result" hidden>
+    <small>SESSÃO CONCLUÍDA</small>
+    <h1 id="resultScore">0 / 10</h1>
+    <p id="resultText"></p>
+    <div id="conceptResults"></div>
+    <button id="againBtn">Continuar estudando</button>
+    <button id="homeBtn" class="secondary">Voltar ao início</button>
+  </section>
+  <section id="mock" hidden>
+    <div class="top"><button id="mockExitBtn">‹</button><span id="mockCounter"></span><strong id="timer">40:00</strong></div>
+    <small class="examLabel">MODO SIMULADO · SEM AJUDA</small>
+    <div id="mockImageWrap"></div>
+    <h2 id="mockQuestion" dir="rtl"></h2>
+    <div id="mockAnswers" dir="rtl"></div>
+    <button id="mockNextBtn" disabled>Próxima</button>
+  </section>
+  <section id="mockResult" hidden>
+    <small>RESULTADO DO SIMULADO</small>
+    <h1 id="mockScore">0 / 30</h1>
+    <p id="mockVerdict"></p>
+    <div id="mockMeta"></div>
+    <button id="studyMockErrorsBtn">Estudar meus erros</button>
+    <button id="mockHomeBtn" class="secondary">Voltar ao início</button>
+  </section>
+  <section id="readiness" hidden>
+    <div class="top"><button id="readinessBackBtn">‹</button><span>MEU PREPARO</span></div>
+    <h1 id="readyTitle"></h1>
+    <p id="readyText"></p>
+    <div id="readyMetrics"></div>
+    <div id="mockHistory"></div>
+    <button id="readyStudyBtn">Continuar estudando</button>
+  </section>
+
+  <section id="installHelp" hidden>
+    <div class="top"><button id="installBackBtn">‹</button><span>INSTALAR CAMINHO</span></div>
+    <h1>Colocar no celular</h1>
+    <div id="installAndroid">
+      <p><b>Android / Chrome</b></p>
+      <p id="androidInstallText">Abra este endereço no Chrome e toque em “Instalar Caminho”.</p>
+      <button id="nativeInstallBtn" hidden>Instalar Caminho</button>
+      <p><small>Se o botão não aparecer: menu ⋮ do Chrome → Adicionar à tela inicial / Instalar app.</small></p>
+    </div>
+    <div id="installIOS">
+      <p><b>iPhone / Safari</b></p>
+      <p>Compartilhar → Adicionar à Tela de Início.</p>
+    </div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body></html>
