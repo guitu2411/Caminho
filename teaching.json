@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "scope": "Verified concept-level notes from official Israeli government/education sources.",
+    "policy": "Never replaces the official answer key; only shown after answering in Study mode.",
+    "verified_topics": [
+      "acostamento",
+      "distancia",
+      "freios",
+      "pedestres",
+      "pneus",
+      "preferencia",
+      "seguranca",
+      "sinais",
+      "ultrapassagem",
+      "veiculo",
+      "velocidade"
+    ]
+  },
+  "topics": {
+    "preferencia": {
+      "title_pt": "Preferência / direito de passagem",
+      "explanation_pt": "Dar preferência significa permitir que quem tem prioridade continue sem precisar parar, esperar, mudar a velocidade ou desviar sua trajetória. Em cruzamento sem placa de preferência ou PARE, a regra geral inclui dar preferência a quem vem pela direita; ao virar à esquerda ou fazer retorno à esquerda, também é preciso considerar o veículo que vem em sentido contrário.",
+      "source_label": "Fonte oficial: material de legislação/metodologia para instrutores de direção, Governo de Israel",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/drivingteacher-02-26-type2/he/final-exams_drivingteacher-02-26-type2-answers.pdf"
+    },
+    "sinais": {
+      "title_pt": "Placas e sinalização",
+      "explanation_pt": "As placas são a linguagem da via. O material pedagógico oficial as organiza em grandes grupos, incluindo advertência, instrução e informação/orientação. Na questão, primeiro identifique que tipo de instrução a placa está comunicando antes de escolher a resposta.",
+      "source_label": "Fonte oficial: Ministério da Educação, segurança no trânsito",
+      "source_url": "https://pop.education.gov.il/tchumey_daat/zehirot-drahim/yesodi/noseem_nilmadim/tamrurim/"
+    },
+    "velocidade": {
+      "title_pt": "Velocidade",
+      "explanation_pt": "Velocidade não é apenas lembrar um número. O material oficial relaciona velocidade à capacidade humana de perceber riscos e realizar ações como ultrapassar, frear e parar. A legislação estabelece velocidades máximas e exige que a condução respeite as condições da via.",
+      "source_label": "Fonte oficial: Ministério da Educação, educação para o trânsito",
+      "source_url": "https://pop.education.gov.il/tchumey_daat/zehirot-drahim/chativa-elyona/noseem-nilmadim/road-safety-week-speed-sign/"
+    },
+    "distancia": {
+      "title_pt": "Distância, reação e frenagem",
+      "explanation_pt": "O material oficial ensina velocidade junto com tempo de reação, distância de reação, distância de frenagem e distância de parada. Ao encontrar esses termos, trate-os como conceitos diferentes e observe exatamente qual deles a pergunta está pedindo.",
+      "source_label": "Fonte oficial: Ministério da Educação, educação para o trânsito",
+      "source_url": "https://pop.education.gov.il/tchumey_daat/zehirot-drahim/chativa-elyona/noseem-nilmadim/road-safety-week-speed-sign/"
+    },
+    "ultrapassagem": {
+      "title_pt": "Ultrapassagem",
+      "explanation_pt": "A regra-base é realizar a ultrapassagem pela esquerda e somente quando houver espaço e visibilidade suficientes para concluir a manobra com segurança. Há situações específicas em que a ultrapassagem é proibida, como quando a visibilidade está comprometida e em determinadas aproximações de faixa de pedestres ou ferrovia.",
+      "source_label": "Fonte oficial: livro didático de direção / Governo de Israel",
+      "source_url": "https://www.gov.il/BlobFolder/reports/driving_textbook/he/publications_2017_nohagim_aheret_nohagim_nachon.pdf"
+    },
+    "acostamento": {
+      "title_pt": "Acostamento",
+      "explanation_pt": "O acostamento não é uma área comum de parada. A orientação oficial de segurança é evitar parar nele, salvo situações em que uma falha impeça continuar a viagem; quando a parada for inevitável, a prioridade é afastar-se da pista e proteger os ocupantes.",
+      "source_label": "Fonte oficial: Autoridade Nacional de Segurança Rodoviária",
+      "source_url": "https://www.gov.il/he/pages/2019_shul"
+    },
+    "pedestres": {
+      "title_pt": "Pedestres e faixa de pedestres",
+      "explanation_pt": "Pedestres são usuários vulneráveis da via. Ao estudar questões de travessia, procure primeiro identificar a faixa, a aproximação do pedestre e qualquer sinal de risco potencial. A educação oficial enfatiza antecipação do perigo e travessia em locais adequados.",
+      "source_label": "Fonte oficial: Ministério da Educação, segurança no trânsito",
+      "source_url": "https://pop.education.gov.il/tchumey_daat/zehirot-drahim/chativa-elyona/traffic-related-ducation/"
+    },
+    "freios": {
+      "title_pt": "Freios",
+      "explanation_pt": "O sistema de frenagem é tratado no currículo oficial como um dos sistemas de maior importância para a segurança do veículo. Nas questões, diferencie funcionamento normal, distância de frenagem e situações de falha do sistema.",
+      "source_label": "Fonte oficial: Ministério da Educação, operação segura do veículo",
+      "source_url": "https://pop.education.gov.il/tchumey_daat/zehirot-drahim/chativa-elyona/traffic-related-ducation/"
+    },
+    "pneus": {
+      "title_pt": "Pneus",
+      "explanation_pt": "Pneus e pressão do ar estão diretamente ligados à estabilidade e à operação segura do veículo. O currículo oficial trata manutenção e funcionamento desses sistemas como parte da condução segura.",
+      "source_label": "Fonte oficial: Ministério da Educação, operação segura do veículo",
+      "source_url": "https://pop.education.gov.il/tchumey_daat/zehirot-drahim/chativa-elyona/traffic-related-ducation/"
+    },
+    "seguranca": {
+      "title_pt": "Segurança e percepção de risco",
+      "explanation_pt": "A condução segura exige reconhecer tanto perigos já presentes quanto situações que podem evoluir para perigo. O material oficial enfatiza procurar sinais antecipados e agir antes que a situação se torne crítica.",
+      "source_label": "Fonte oficial: Ministério da Educação, percepção de riscos",
+      "source_url": "https://pop.education.gov.il/tchumey_daat/zehirot-drahim/chativa-elyona/traffic-related-ducation/"
+    },
+    "veiculo": {
+      "title_pt": "Conhecimento do veículo",
+      "explanation_pt": "Conhecer os sistemas do veículo faz parte da segurança, não apenas da mecânica. O currículo oficial relaciona pneus, pressão, frenagem, sensores e sistemas de assistência à capacidade de conduzir com segurança.",
+      "source_label": "Fonte oficial: Ministério da Educação, operação segura do veículo",
+      "source_url": "https://pop.education.gov.il/tchumey_daat/zehirot-drahim/chativa-elyona/traffic-related-ducation/"
+    }
+  }
+}

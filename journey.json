@@ -1,0 +1,246 @@
+{
+  "version": "1.0",
+  "design_note": "Pedagogical order created by Caminho; not an official Ministry curriculum.",
+  "journey": {
+    "start": "Ramat Gan",
+    "destination": "Harish",
+    "progress_basis": "learning milestones, not raw question count",
+    "milestones": [
+      {
+        "pct": 0,
+        "label_pt": "Começando"
+      },
+      {
+        "pct": 15,
+        "label_pt": "Já reconhece a linguagem da prova"
+      },
+      {
+        "pct": 35,
+        "label_pt": "Lê a rua com mais segurança"
+      },
+      {
+        "pct": 55,
+        "label_pt": "Entende as principais decisões"
+      },
+      {
+        "pct": 75,
+        "label_pt": "Consolidando os pontos fracos"
+      },
+      {
+        "pct": 90,
+        "label_pt": "Hora de provar no simulado"
+      },
+      {
+        "pct": 100,
+        "label_pt": "Pronta para a prova"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "order": 1,
+      "id": "orientacao",
+      "title_pt": "Ler a rua",
+      "concepts": [
+        "sinais",
+        "semaforo",
+        "faixas",
+        "sentido_via"
+      ],
+      "primary_question_count": 460,
+      "unlock_rule": {
+        "initially_unlocked": true,
+        "unlock_when": "previous module has >=70 mastery OR learner has completed 2 sessions in previous module"
+      },
+      "session_recipe": {
+        "target_minutes": 10,
+        "target_questions": 10,
+        "composition": {
+          "review_due": 3,
+          "current_module_weak_concepts": 4,
+          "current_module_unseen": 2,
+          "confidence_check": 1
+        }
+      }
+    },
+    {
+      "order": 2,
+      "id": "interacoes",
+      "title_pt": "Quem passa primeiro",
+      "concepts": [
+        "preferencia",
+        "cruzamentos",
+        "pedestres"
+      ],
+      "primary_question_count": 178,
+      "unlock_rule": {
+        "initially_unlocked": false,
+        "unlock_when": "previous module has >=70 mastery OR learner has completed 2 sessions in previous module"
+      },
+      "session_recipe": {
+        "target_minutes": 10,
+        "target_questions": 10,
+        "composition": {
+          "review_due": 3,
+          "current_module_weak_concepts": 4,
+          "current_module_unseen": 2,
+          "confidence_check": 1
+        }
+      }
+    },
+    {
+      "order": 3,
+      "id": "movimento",
+      "title_pt": "Mover-se com segurança",
+      "concepts": [
+        "velocidade",
+        "distancia",
+        "ultrapassagem"
+      ],
+      "primary_question_count": 126,
+      "unlock_rule": {
+        "initially_unlocked": false,
+        "unlock_when": "previous module has >=70 mastery OR learner has completed 2 sessions in previous module"
+      },
+      "session_recipe": {
+        "target_minutes": 10,
+        "target_questions": 10,
+        "composition": {
+          "review_due": 3,
+          "current_module_weak_concepts": 4,
+          "current_module_unseen": 2,
+          "confidence_check": 1
+        }
+      }
+    },
+    {
+      "order": 4,
+      "id": "parar",
+      "title_pt": "Parar, estacionar e usar o acostamento",
+      "concepts": [
+        "estacionamento",
+        "acostamento"
+      ],
+      "primary_question_count": 123,
+      "unlock_rule": {
+        "initially_unlocked": false,
+        "unlock_when": "previous module has >=70 mastery OR learner has completed 2 sessions in previous module"
+      },
+      "session_recipe": {
+        "target_minutes": 10,
+        "target_questions": 10,
+        "composition": {
+          "review_due": 3,
+          "current_module_weak_concepts": 4,
+          "current_module_unseen": 2,
+          "confidence_check": 1
+        }
+      }
+    },
+    {
+      "order": 5,
+      "id": "condicoes",
+      "title_pt": "Ver e ser visto",
+      "concepts": [
+        "iluminacao",
+        "ferrovia"
+      ],
+      "primary_question_count": 31,
+      "unlock_rule": {
+        "initially_unlocked": false,
+        "unlock_when": "previous module has >=70 mastery OR learner has completed 2 sessions in previous module"
+      },
+      "session_recipe": {
+        "target_minutes": 10,
+        "target_questions": 10,
+        "composition": {
+          "review_due": 3,
+          "current_module_weak_concepts": 4,
+          "current_module_unseen": 2,
+          "confidence_check": 1
+        }
+      }
+    },
+    {
+      "order": 6,
+      "id": "veiculo",
+      "title_pt": "Conhecer o carro",
+      "concepts": [
+        "freios",
+        "pneus",
+        "seguranca_passiva",
+        "veiculo"
+      ],
+      "primary_question_count": 141,
+      "unlock_rule": {
+        "initially_unlocked": false,
+        "unlock_when": "previous module has >=70 mastery OR learner has completed 2 sessions in previous module"
+      },
+      "session_recipe": {
+        "target_minutes": 10,
+        "target_questions": 10,
+        "composition": {
+          "review_due": 3,
+          "current_module_weak_concepts": 4,
+          "current_module_unseen": 2,
+          "confidence_check": 1
+        }
+      }
+    },
+    {
+      "order": 7,
+      "id": "regras",
+      "title_pt": "Documentos e regras gerais",
+      "concepts": [
+        "licenciamento",
+        "regras_gerais",
+        "seguranca"
+      ],
+      "primary_question_count": 214,
+      "unlock_rule": {
+        "initially_unlocked": false,
+        "unlock_when": "previous module has >=70 mastery OR learner has completed 2 sessions in previous module"
+      },
+      "session_recipe": {
+        "target_minutes": 10,
+        "target_questions": 10,
+        "composition": {
+          "review_due": 3,
+          "current_module_weak_concepts": 4,
+          "current_module_unseen": 2,
+          "confidence_check": 1
+        }
+      }
+    }
+  ],
+  "daily_flow": [
+    {
+      "step": 1,
+      "pt": "Retomar",
+      "description_pt": "Começar por erros/revisões que venceram hoje."
+    },
+    {
+      "step": 2,
+      "pt": "Aprender",
+      "description_pt": "Trabalhar o conceito mais fraco do módulo atual com perguntas diferentes."
+    },
+    {
+      "step": 3,
+      "pt": "Expandir",
+      "description_pt": "Adicionar perguntas oficiais ainda não vistas."
+    },
+    {
+      "step": 4,
+      "pt": "Confirmar",
+      "description_pt": "Terminar com uma questão de confiança para medir retenção sem ajuda excessiva."
+    }
+  ],
+  "anti_friction": {
+    "default_session_minutes": 10,
+    "one_primary_action_on_home": true,
+    "resume_where_left_off": true,
+    "no_daily_streak_pressure": true,
+    "missed_day_penalty": false,
+    "copy_style": "supportive, adult, concise"
+  }
+}
